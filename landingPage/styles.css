@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  background-color: #0a374a;
+
+  height: 100vh; /* Set the height of the entire page to 100% viewport height */
+  overflow: hidden !important;
+}
+
+.logo {
+  width: 195px;
+  height: 50px;
+  margin-left: 100px;
+  margin-top: 51px;
+  display: block;
+  margin-bottom: 100px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 784.73px;
+  text-align: left;
+  margin-left: 150px;
+}
+
+.content-logo {
+  width: 550px;
+}
+.aside {
+  display: flex;
+  gap: 10px;
+}
+
+h2 {
+  color: white;
+  font-size: 40px;
+}
+
+button {
+  color: #0a374a;
+  background-color: white;
+  font-size: 30px;
+  border-radius: 37px;
+  padding: 10px 50px;
+  font-weight: bold;
+}
+
+h1 {
+  color: white;
+  font-size: 80px;
+  letter-spacing: 4px;
+}
+
+.container {
+  display: flex;
+}
+
+.left {
+  flex: 0.7;
+}
+
+.right {
+  flex: 0.3;
+}
+
+.back-image {
+  width: 519.95px;
+  max-height: 100%;
+}
+
+.front-image {
+  width: 519.95px;
+  position: absolute;
+  z-index: 10;
+  top: 185px;
+  left: 800px;
+  border-radius: 9px 9px 0 0;
+  overflow: hidden;
+}
+
+p {
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  width: 550px;
+}
